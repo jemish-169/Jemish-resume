@@ -112,7 +112,7 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url(joanna-kosinska-unsplash.jpg);
   background-size: cover;
   background-position: top right;
   color: #000;
@@ -150,10 +150,6 @@ footer {
   }
   .project-item img {
     float: left;
-    margin-right: 40px;
-    background: #186d58;
-    border-radius: 5px;
-    padding: 5px;
   }
 
   .job-item {
@@ -164,12 +160,26 @@ footer {
 }
 @media screen and (max-width: 749px) {
   h1 {
+    text-align: center;
     font-size: 75px;
     line-height: 0.9;
     margin-bottom: 20px;
   }
+  .project-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .projects .btn {
+    display: block;
+    text-align: center;
+  }
   h2 {
     line-height: 1;
+  }
+  .project-item h3 {
+    margin: 20px;
   }
   .contact-list a {
     padding: 5px;
