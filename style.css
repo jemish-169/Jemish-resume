@@ -74,8 +74,8 @@ header {
 /* Technical Skills
 -----------------------------------*/
 .skills {
-  background: #f8fff8;
-  color: #206d18;
+  background: #edf2fb;
+  color: #0d3184;
 }
 .skill-item {
   overflow: hidden;
@@ -87,7 +87,7 @@ header {
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #e4f1ef;
+  background: #f7fff7;
   color: #186d58;
 }
 .projects a {
@@ -130,7 +130,6 @@ header {
 ------------------------------------*/
 .minor-projects {
   background: #f0f1e4;
-  color: #38470f;
 }
 .minor-projects a {
   color: #49612f;
@@ -149,13 +148,13 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #a1c6d7;
+  background: #9fd1e8;
 }
 
 /* Education
 ------------------------------------*/
 .education {
-  background-color: #f7bf07;
+  background-color: #ffe66d;
   background-size: cover;
   background-position: top right;
   color: #000;
