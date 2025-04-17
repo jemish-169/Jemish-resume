@@ -71,6 +71,19 @@ header {
   color: #f7fff7;
 }
 
+/* Technical Skills
+-----------------------------------*/
+.skills {
+  background: #f8fff8;
+  color: #206d18;
+}
+.skill-item {
+  overflow: hidden;
+}
+.skill-item h3 {
+  margin: 0px;
+}
+
 /* Projects
 ------------------------------------*/
 .projects {
@@ -89,23 +102,6 @@ header {
 }
 .projects .btn:hover {
   background: rgba(47, 48, 97, 80%);
-}
-.minor-projects {
-  background: #f0f1e4;
-  color: #38470f;
-}
-.minor-projects a {
-  color: #49612f;
-}
-.minor-projects .btn {
-  color: #fcfff7;
-  background: #40612f;
-  padding: 8px;
-  text-decoration: none;
-  border-radius: 4px;
-}
-.minor-projects .btn:hover {
-  background: rgba(79, 97, 47, 0.8);
 }
 .play-store-btn {
   color: #ffffff !important;
@@ -130,11 +126,32 @@ header {
   margin: 0px;
 }
 
+/* Minor Projects
+------------------------------------*/
+.minor-projects {
+  background: #f0f1e4;
+  color: #38470f;
+}
+.minor-projects a {
+  color: #49612f;
+}
+.minor-projects .btn {
+  color: #fcfff7;
+  background: #40612f;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.minor-projects .btn:hover {
+  background: rgba(79, 97, 47, 0.8);
+}
+
 /* Work Experience
 ------------------------------------*/
 .work-experience {
   background: #a1c6d7;
 }
+
 /* Education
 ------------------------------------*/
 .education {
@@ -218,5 +235,11 @@ footer {
   }
   .contact-list a {
     padding: 5px;
+  }
+  .skills {
+    flex-direction: column;
+  }
+  .-item h3 {
+    margin: 20px;
   }
 }
