@@ -77,11 +77,31 @@ header {
   background: #edf2fb;
   color: #0d3184;
 }
+.skills .divider > section {
+  padding: 5px 0px;
+  border-bottom: 0px dashed #343434;
+}
 .skill-item {
   overflow: hidden;
 }
 .skill-item h3 {
   margin: 0px;
+}
+
+/* Profile Links
+-----------------------------------*/
+.profile-link-sec {
+  background: #66727a;
+  color: #e8e8e8;
+}
+.profile-links {
+  list-style-type: none;
+  padding: 0;
+}
+.profile-links a {
+  padding: 15px;
+  display: inline-block;
+  color: #e8e8e8;
 }
 
 /* Projects
@@ -190,6 +210,10 @@ footer {
     display: flex;
     justify-content: center;
   }
+  .profile-links {
+    display: flex;
+    justify-content: center;
+  }
   .project-item img {
     float: left;
   }
@@ -233,6 +257,9 @@ footer {
     margin: 20px;
   }
   .contact-list a {
+    padding: 5px;
+  }
+  .project-links a {
     padding: 5px;
   }
   .skills {
