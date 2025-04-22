@@ -92,7 +92,7 @@ header {
 -----------------------------------*/
 .profile-link-sec {
   background: #66727a;
-  color: #e8e8e8;
+  color: #ffffff;
 }
 .profile-links {
   list-style-type: none;
@@ -101,7 +101,7 @@ header {
 .profile-links a {
   padding: 15px;
   display: inline-block;
-  color: #e8e8e8;
+  color: #ffffff;
 }
 
 /* Projects
