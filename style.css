@@ -170,6 +170,10 @@ header {
 .work-experience {
   background: #9fd1e8;
 }
+.work-experience .btn {
+  color: #000;
+  font-weight: 500;
+}
 
 /* Education
 ------------------------------------*/
