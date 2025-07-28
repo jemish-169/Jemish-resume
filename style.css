@@ -145,6 +145,10 @@ header {
 .project-item h3 {
   margin: 0px;
 }
+.project-date {
+  font-size: 0.95em;
+  color: #888;
+}
 
 /* Minor Projects
 ------------------------------------*/
