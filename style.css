@@ -179,6 +179,12 @@ header {
   font-weight: 500;
 }
 
+/* Certificates & Achievements
+------------------------------------*/
+.certificates {
+  background: #e6f3fa;
+}
+
 /* Education
 ------------------------------------*/
 .education {
